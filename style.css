@@ -1,0 +1,146 @@
+body {
+	max-width: 100%;
+	margin: 0px;
+}
+@media screen and (min-width: 320px){
+	.first{
+		width: 100%;
+		background-image: url(images/bg-hero-mobile.svg);
+		background-size: cover;
+		background-color: hsl(193, 100%, 96%);
+	}
+	.first_part {
+		padding: 10px 10px;
+		display: flex;
+		justify-content: space-between;
+	}
+	.free {
+		border: hidden;
+		border-radius: 20px;
+		width: 20%;
+		background-color: white;
+		font-weight: 600;
+		box-shadow: 1px 1px 6px black;
+		text-align: center;
+		padding-top: 10px ;
+	}
+	.community {
+		display: flex;
+		flex-direction: column;
+		width: 80%;
+		margin: 100px auto;
+	}
+	.huddle {
+		display: flex;
+		flex-direction: column;
+		text-align: center;
+	}
+	.huddle>h1 {
+		font-weight: 300;
+		font-size: 50px;
+	}
+	.huddle>h2 {
+		font-weight: 100;
+		font-size: 30px;
+	}
+	.started {
+		padding: 20px;
+		border-radius: 10px;
+		background-color: hsl(322, 100%, 66%);
+		width: 40%;
+		margin: 10% auto;
+		color: white;
+		font-weight: 400;
+		font-size: 20px;
+	}
+	.phone {
+		width: 100%;
+	}
+	.phone>img {
+		width: 100%;
+	}
+	.grow{
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		width: 80%;
+		margin: 5% auto;
+		/*box-shadow: 1px 1px 100px hsl(208, 11%, 55%);*/
+		border-radius: 20px;
+	}
+	.together {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		padding: 0px 20px;
+		text-align: center;
+	}
+	.together>h2 {
+		color: hsl(208, 11%, 55%);
+		font-weight: 100;
+	}
+	.together>h1 {
+		font-weight: 900;
+		font-size: 40px;
+	}
+	.grow_image {
+		width: 100%;
+	}
+	.grow_image>img {
+		width: 100%;
+	}
+	.ready {
+		display: flex;
+		flex-direction: column;
+		width: 80%;
+		margin: opx auto;
+		font-size: 40px;
+		box-shadow: 1px 1px 1px black;
+	}
+	.get {
+		border-radius: 30px;
+		background-color: hsl(322, 100%, 66%);
+		font-size: 20px;
+		color: white;
+	}
+}
+@media screen and (min-width:  780px){
+	.first {
+		background-image: url(images/bg-hero-desktop.svg);
+	}
+	.free {
+		border-radius: 20px;
+		width: 10%;
+	}
+	.community {
+		display: flex;
+		flex-direction: row;
+		width: 90%;
+	}
+	.huddle {
+		text-align: left;
+		width: 50%;
+	}
+	.community>img {
+		width: 100%;
+	}
+	.started {
+		text-align: center;
+		margin: 5% 0px;
+	}
+	.phone {
+		width: 50%;
+	}
+	.phone>img {
+		width: 100%;
+	}
+	.grow {
+		display: flex;
+		flex-direction: row-reverse;
+		margin: 10% auto;
+	}
+	.grow:nth-child(3){
+		display: flex;
+		flex-direction: row;
+	}
+}
