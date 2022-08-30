@@ -1,0 +1,14 @@
+.details {
+	display: flex;
+	flex-direction: column;
+	/* width: 100%; */
+	box-sizing: content-box;
+	margin: 10% 5%;
+	font-size: 20px;
+	font-family: monospace;
+	line-height: 30px;
+}
+ .title {
+ 	text-align: center;
+ 	margin-top: 5%;
+ }

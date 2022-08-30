@@ -1,0 +1,49 @@
+.tutorial_details {
+	height: 88%;
+	display: flex;
+
+}
+
+/* .content, .details {
+	height: 88%;
+} */
+
+.content {
+	width: 30%;
+	border: 1px solid black;
+	margin: 20px 40px;
+	box-sizing: border-box;
+	position: relative;
+	overflow-y: scroll;
+	background-color: azure;
+}
+
+.content>h1 {
+	text-align: center;
+}
+
+.content>ul {
+	padding: 0px 10px;
+	text-align: center;
+}
+
+.content>ul {
+	list-style: inside;
+}
+
+.details {
+	width: 70%;
+	overflow-y: scroll;
+	scroll-padding: 20px;
+}
+.details::-webkit-scrollbar, .content::-webkit-scrollbar {
+	/* border: 1px solid red; */
+	display: none;
+}
+
+.title {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	margin: 20px auto;
+}
