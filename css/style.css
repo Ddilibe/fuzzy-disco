@@ -56,7 +56,23 @@
 	max-width: 100%;
 	/* border-radius: 50%; */
 	/* filter: grayscale(50%); */
+	animation: james;
+	animation-duration: 2s;
 }
+
+/* 
+	There is a css Library that the name is animate css.
+	" Animate.css is a library of ready to use cross browser
+	animation in your web browser "
+	It is used in this way
+	class="animate__animated animate__<animated_name_provided>"
+	The properties can also be changed with css and javascript.
+	It can be changed with css using the keyframes rule
+	It can also be changed with the use of javascript by identifying
+	the variable and change the style. The variable can also be 
+	changed globally. It can also bve changed with the class using SAAS.
+
+*/
 
 input[type='search'] {
 	background-color: inherit;
@@ -87,11 +103,26 @@ input[type='search']:focus{
 
 .inters {
 	font-size: 20px;
+	animation: Slide-right;
+	/* animation-duration: 3s;
+	animation-timing-function: linear; */
 }
 .occupa {
 	font-size: 40px;
 	font-weight: 900;
 }
+
+.first{
+	animation: Slide-right;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+}
+.second {
+	animation: Slide-left;
+	animation-duration: 3s;
+	animation-timing-function: linear;
+}
+
 @media (max-width: 780px) {
 	.Background {
 		height: 100vh;
@@ -150,5 +181,9 @@ input[type='search']:focus{
 		flex-wrap: wrap;
 		width: 100%;
 		/* word-spacing: 10px; */
+	}
+	.first{
+		animation: No;
+		font-family: Kanit-BoldItalics;
 	}
 }
