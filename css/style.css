@@ -6,9 +6,12 @@
 	/* background-image: url('../images/resul-mentes-DbwYNr8RPbg-unsplash (1).jpg'); */
 	/* background-image: url('../images/alex-fxrwJGMCz_g-unsplash.jpg'); */
 	/* background-image: url('../images/vladimir-anikeev-IM8ZyYaSW6g-unsplash.jpg'); */
-	background-color: dimgray;
+	background-image: url('../images/adrien-olichon-ilVYjf0J378-unsplash.jpg');
+	/* background-color: black; */
 	background-position: center;
 	background-size: cover;
+	color: floralwhite;
+	font-family: Acme;
 	height: 100%;
 }
 .text_place {
@@ -51,8 +54,8 @@
 
 .second>img {
 	max-width: 100%;
-	border-radius: 50%;
-	filter: grayscale(50%);
+	/* border-radius: 50%; */
+	/* filter: grayscale(50%); */
 }
 
 input[type='search'] {
@@ -69,6 +72,19 @@ input[type='search']:focus{
 	outline: none;
 }
 
+.Intro {
+	border-top-right-radius: 20px;
+	border-top-left-radius: 20px;
+	border-bottom-left-radius: 20px;
+	/* color: green; */
+	/* width: 20%; */
+	font-weight: 900;
+	font-size: 35px;
+}
+
+.inters {
+	font-size: 20px;
+}
 @media (max-width: 780px) {
 	.Background {
 		height: 100vh;
