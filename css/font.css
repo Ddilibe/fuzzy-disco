@@ -32,3 +32,8 @@ src: url("../Font/Kanit/Kanit-Thin.ttf");
 font-family: "Kanit-Light";
 src: url("../Font/Kanit/Kanit-Light.ttf");
 }
+
+@font-face {
+font-family: "Kanit-medium";
+src: url("../Font/Kanit/Kanit-medium.ttf");
+}

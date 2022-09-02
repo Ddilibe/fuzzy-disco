@@ -10,6 +10,7 @@
 	}
 	
 }
+
 @keyframes Slide-right {
 	0% {
 		position: relative;
@@ -66,4 +67,12 @@
 		position: relative;
 		left: 0px;
 	}
+}
+
+@keyframes button {
+	100% {
+		background-color: black;
+		color: white;
+	}
+	
 }
